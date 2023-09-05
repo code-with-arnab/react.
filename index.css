@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2.app{
+  color: red;
+}
+h2.style{
+  color: rgb(42, 165, 75);
+}
+
+
+/*********************************************************************HandelFrom(file name)**************************************************/
+
+.HandelFromPosition {
+  width: 100%;
+  max-width: 500px; /* Adjust the max width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10%;
+  background-color: aqua;
+}
+
+/* Style the table for responsiveness */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+  
+}
+
+@media (max-width: 600px) {
+  .HandelFromPosition {
+      max-width: 100%; /* Adjust the width for smaller screens */
+  }
+}
+
+
+
+
+
+
+
